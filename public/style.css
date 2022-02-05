@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Baloo+Bhaijaan+2:wght@800&family=Creepster&display=swap");
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  font-family: "Baloo Bhaijaan 2", cursive;
+  background-image: url(./back3.png);
+  background-size: contain;
+}
+/* .info-img {
+  position: absolute;
+  top: 15px;
+} */
+/* .info {
+  display: none;
+} */
+
+@media only screen and (max-width: 1200px), screen and (max-height: 768px) {
+  body {
+    background-image: url(./back3.png);
+    background-size: contain;
+    /* background-position: right; */
+  }
+}
+@media only screen and (max-width: 412px) {
+  body {
+    background-image: url(back.png);
+    /* background-size: cover; */
+  }
+}
