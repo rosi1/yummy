@@ -52,13 +52,13 @@ const App = () => {
           <option value="vegan">vegan</option>
           <option value="vegetarian">vegetarian</option>
           <option value="paleo">paleo</option>
-          <option value="gluten-free">gluten-free</option>
+          {/* <option value="gluten-free">gluten-free</option>
           <option value="peanut-free">peanut-free</option>
           <option value="low-sugar">low-sugar</option>
           <option value="egg-free">egg-free</option>
-          <option value="soy-free">soy-free</option>
+          <option value="soy-free">soy-free</option> */}
         </select>
-        
+
         <button onClick={getRecipes}>Daily Meal Plan</button>
       </div>
       

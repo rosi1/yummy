@@ -1,10 +1,6 @@
 .App {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   min-height: 80vh;
   min-width: 60vw;
   background-color: rgba(247, 173, 182, 0.6);
@@ -82,9 +78,7 @@ ul {
   padding: 0;
   margin: 0;
 }
-/* .meal-title {
-  
-} */
+
 .labels {
   border: none;
   background: none;
@@ -99,7 +93,7 @@ ul {
 @media only screen and (max-width: 1200px) {
   .App {
     min-height: 70vh;
-    min-width: 50vw;
+    min-width: 80vw;
   }
   .title {
     font-size: 13px;
@@ -124,12 +118,7 @@ ul {
     text-align: center;
     margin-bottom: 0.5rem;
   }
-  /* .meals {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 1.5rem;
-  } */
+
   .nutrients ul {
     display: flex;
     justify-content: space-evenly;
@@ -157,25 +146,18 @@ ul {
   }
 }
 
-@media only screen and (max-width: 412px) {
-  .App {
-    min-height: 80vh;
-    min-width: 70vw;
-    /* overflow: scroll !important; */
-  }
+@media only screen and (max-width: 782px) {
   .title {
+    margin-top: 15px;
     font-size: 12px;
   }
   input[type="number"] {
     padding: 3px;
     font-size: 12px;
   }
-  /* button {
-    
-  } */
+
   .nutrients ul {
     display: none;
-    /* justify-content: space-evenly; */
   }
   .recipe-img {
     width: 150px;
@@ -190,8 +172,8 @@ ul {
   }
   .meal-info {
     padding: 1rem;
-    max-width: 14rem;
-    max-height: 14rem;
+    min-width: 14rem;
+    min-height: 14rem;
     box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     font-size: 12px;

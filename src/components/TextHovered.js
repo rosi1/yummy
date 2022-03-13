@@ -5,8 +5,8 @@ const pStyle={
     color:'pink',
     display: 'inline-block',
      borderRadius: '5px',
-     position: 'relative',
-     zIndex:2  
+     position: 'absolute',
+     zIndex:2
     };
 
 const TextHovered = () => {
